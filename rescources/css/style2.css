@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+html{
+  background-color: #fff;
+  color:#fff;
+  font-family: 'Oswald','Arial';
+  font-weight: 600;
+  font-size: 20px;
+  text-rendering: : optimizegibility;
+}
+
+  body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/bg.jpg);
+    width:100%;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  .container{
+    color:#333;
+    margin:auto;
+    max-width: 1000px;
+    background-color: rgba(238, 238, 238, 0.8);
+    box-shadow: 30px 0 40px rgba(0, 0, 0, 0.6),-30px 0 40px rgba(0, 0, 0, 0.6);
+  }

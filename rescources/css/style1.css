@@ -27,6 +27,7 @@ html{
     max-width: 1000px;
     background-color: rgba(238, 238, 238, 0.8);
     box-shadow: 30px 0 40px rgba(0, 0, 0, 0.6),-30px 0 40px rgba(0, 0, 0, 0.6);
+
   }
 
   header{
@@ -85,11 +86,12 @@ header ul li{
 .icon{
   display:inline-flex;
 margin-left: 80px;
-margin-top: 20px;
+margin-top: 40px;
 }
 #latestmovies{
   margin-left:8px;
   margin-top:-3px;
+    color: #0d2de0;
 }
 
 .moviename{
@@ -112,6 +114,17 @@ margin-top: 20px;
 
 .movieyear:hover{
   color: #c71919;
+}
+.trending{
+  display: inline-flex;
+  margin-left: 80px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+#trending{
+  margin-left: 6px;
+  color: #0d2de0;
+
 }
 
 figure{
@@ -138,6 +151,55 @@ figure:hover img{
 figure:hover{
   box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.7);
   border-color: #242a9a;
+}
+
+/*---------------------------------------------------------------------------*/
+/*------------------------------popup page---------------------------------------------*/
+
+#movietitle{
+margin-top: 30px;
+margin-left: 55px;
+padding:20px;
+}
+.moviedes{
+  font-style:italic;
+  font-weight: 2px;
+  font-family: serif;
+  padding-top: 10px;
+  font-size: 16px;
+}
+.aboutmovie{
+  display: inline-flex;
+  margin-top:80px;
+  padding: 30px
+
+}
+.rightdetails{
+  float: right;
+
+}
+.leftdetails{
+  float:left;
+}
+
+.description{
+  padding:15px;
+
+}
+.fastandferious{
+  margin-bottom: 20px;
+}
+.download{
+  margin-top: 30px;
+  margin-left: 420px;
+  display: inline-grid;
+}
+.magneticlink{
+  margin-left:-25px;
+}
+.torrent{
+  height: 50px;
+  width: 50px;
 }
 
   footer{
