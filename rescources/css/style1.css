@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+html{
+  background-color: #fff;
+  color:#fff;
+  font-family: 'Oswald','Arial';
+  font-weight: 600;
+  font-size: 20px;
+  text-rendering: : optimizegibility;
+}
+
+  body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/bg.jpg);
+    width:100%;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+/*----------------------------------------------------------------------------------*/
+/*------------------------------header part------------------------------------*/
+  .container{
+    color:#333;
+    margin:auto;
+    max-width: 1000px;
+    background-color: rgba(238, 238, 238, 0.8);
+    box-shadow: 30px 0 40px rgba(0, 0, 0, 0.6),-30px 0 40px rgba(0, 0, 0, 0.6);
+  }
+
+  header{
+    margin-bottom: 5px;
+    overflow: auto;
+    padding:10px;
+  }
+
+  header h1{
+    margin: 15px 0 0 70px;
+    float: left;
+  }
+
+header h1 a{
+  font-size: 2rem;
+  text-decoration: none;
+  color:#333;
+}
+
+  header h1 a:hover{
+    color:#242a9a;
+  }
+
+  header ul{
+    list-style: none;
+    margin: 28px 60px 0 0;
+    padding: 0;
+    float: right;
+  }
+
+header ul li{
+  margin-left: 35px;
+  display: inline;
+}
+
+  header ul li a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #333;
+  }
+  header ul li a:hover{
+    color: #c71919;
+  }
+/*----------------------------------------------------------------------------------*/
+/*--------------------------Body part----------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.current{
+  color: #c71919;
+  border-bottom: 3px solid;
+}
+
+.row{
+  margin-top:20px;
+  padding:0;
+}
+.icon{
+  display:inline-flex;
+margin-left: 80px;
+margin-top: 20px;
+}
+#latestmovies{
+  margin-left:8px;
+  margin-top:-3px;
+}
+
+.moviename{
+  margin-left:80px;
+  display: inline-block;
+  text-align: center;
+}
+.movienames{
+  color:#333;
+  text-decoration: none;
+}
+
+.movienames:hover{
+  color:#242a9a;
+}
+
+.movieyear{
+  font-size: 10px;
+}
+
+.movieyear:hover{
+  color: #c71919;
+}
+
+figure{
+  width:150px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 3px;
+  border: #c71919 5px solid;
+}
+
+
+figure img{
+  width:150px;
+  height: 200px;
+  opacity: 0.9;
+  transition: 0.5s ease;
+}
+
+figure:hover img{
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+figure:hover{
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.7);
+  border-color: #242a9a;
+}
+
+  footer{
+    margin-top:40px;
+    padding:10px;
+    background: #333;
+    color:rgba(255, 255, 255, 0.4);
+    text-align: center;
+    box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.5);
+  }
+
+  footer p{
+    font-weight: 300;
+    font-size: 13px;
+  }
+
+@media (max-width:700px){
+  header h1{
+    float: none;
+    text-align: center;
+  }
+
+  header ul{
+    margin: 0;
+    padding-bottom: 15px;
+    float:none;
+    text-align: center;
+    word-spacing: 35px;
+  }
+  header ul li{
+    margin:0;
+  }
