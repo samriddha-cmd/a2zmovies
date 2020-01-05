@@ -172,6 +172,15 @@ figure:hover{
 
 /*---------------------------------------------------------------------------*/
 /*------------------------------popup page---------------------------------------------*/
+.bigphoto{
+  padding:10px;
+
+  margin-left: 40px;
+  margin-top: 60px;
+    overflow: hidden;
+  border-radius: 5px;
+
+}
 
 #movietitle{
 margin-top: 30px;
@@ -187,8 +196,8 @@ padding:20px;
 }
 .aboutmovie{
   display: inline-flex;
-  margin-top:80px;
-  padding: 30px
+  margin-top:-5px;
+  padding: 30px;
 
 }
 .rightdetails{
@@ -197,7 +206,7 @@ padding:20px;
 
 }
 .words{
-  font-size: 20px;
+  font:10px;
 }
 .leftdetails{
   float:left;
