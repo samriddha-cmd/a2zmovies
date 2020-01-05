@@ -265,6 +265,27 @@ padding:20px;
     font-size: 17px;
 }
 
+/*---------------------------------------------------------------------------*/
+/*------------------------------hollywood-------------------------------------------*/
+.navlinks{
+  text-align: center;
+  margin-top: 20px;
+}
+.page-number{
+
+  padding: 5px;
+  color: #f3ebeb;
+  text-decoration: none;
+
+}
+.current1{
+  color: red;
+  border-bottom: 3px solid;
+
+}
+
+
+
   footer{
     padding:10px;
     background: rgba(14, 14, 14, 1);
