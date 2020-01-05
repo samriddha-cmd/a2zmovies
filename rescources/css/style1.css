@@ -82,6 +82,7 @@ header ul li{
   border-bottom: 3px solid;
 }
 
+
 .row{
   transition: 0.5s ease;
   margin-top:20px;
@@ -121,6 +122,19 @@ margin-top: 40px;
   text-decoration: none;
 }
 
+.mliquality{
+  background: #c71919;
+  font-size: 0.6rem;
+  margin-top: 6px;
+  margin-left: 33px;
+  border-radius: 4px;
+  font-weight: 300;
+  padding:3px;
+  z-index: 4;
+  position: absolute;
+  color:#333;
+}
+
 .movienames:hover{
   color:#242a9a;
 }
@@ -150,6 +164,8 @@ figure{
   overflow: hidden;
   border-radius: 3px;
   border: #c71919 3px solid;
+
+
 }
 
 
@@ -175,11 +191,17 @@ figure:hover{
 .bigphoto{
   padding:10px;
 
-  margin-left: 40px;
-  margin-top: 60px;
+  align-items: center;
     overflow: hidden;
   border-radius: 5px;
 
+}
+
+.aboutmovie{
+  padding-top: 60px;
+  align-items: center;
+  margin-left: 116px;
+  padding-bottom: 30px;
 }
 
 #movietitle{
@@ -197,7 +219,6 @@ padding:20px;
 .aboutmovie{
   display: inline-flex;
   margin-top:-5px;
-  padding: 30px;
 
 }
 .rightdetails{
@@ -246,7 +267,7 @@ padding:20px;
 
   footer{
     padding:10px;
-    background: #333;
+    background: rgba(14, 14, 14, 1);
     color:rgba(255, 255, 255, 0.4);
     text-align: center;
     box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.5);
