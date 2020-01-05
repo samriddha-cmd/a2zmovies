@@ -6,7 +6,7 @@
 }
 html{
   background-color: #fff;
-  color:#fff;
+  color:#ffffff;
   font-family: 'Oswald','Arial';
   font-weight: 600;
   font-size: 20px;
@@ -22,11 +22,11 @@ html{
 /*----------------------------------------------------------------------------------*/
 /*------------------------------header part------------------------------------*/
   .container{
-    color:#333;
+    color:#fff;
     margin:auto;
     max-width: 1000px;
-    background-color: rgba(238, 238, 238, 0.8);
-    box-shadow: 30px 0 40px rgba(0, 0, 0, 0.6),-30px 0 40px rgba(0, 0, 0, 0.6);
+    background-color: rgba(15, 15, 25, 0.7);
+    box-shadow: 30px 0 40px rgba(0, 0, 0, 0.10),-30px 0 40px rgba(0, 0, 0, 0.5);
 
   }
 
@@ -37,23 +37,26 @@ html{
   }
 
   header h1{
-    margin: 15px 0 0 70px;
+   font-family: 'Spirax', cursive;
+
+    margin: 38px 0 0 70px;
     float: left;
   }
 
 header h1 a{
   font-size: 2rem;
   text-decoration: none;
-  color:#333;
+  color:#fff;
 }
 
   header h1 a:hover{
-    color:#242a9a;
+    color:rgba(222, 22, 22, 0.78);
   }
 
   header ul{
+    transition: 0.2s ease;
     list-style: none;
-    margin: 28px 60px 0 0;
+    margin: 45px 60px 0 0;
     padding: 0;
     float: right;
   }
@@ -66,7 +69,7 @@ header ul li{
   header ul li a{
     font-size: 1rem;
     text-decoration: none;
-    color: #333;
+    color: #fff;
   }
   header ul li a:hover{
     color: #c71919;
@@ -80,6 +83,7 @@ header ul li{
 }
 
 .row{
+  transition: 0.5s ease;
   margin-top:20px;
   padding:0;
 }
@@ -88,10 +92,23 @@ header ul li{
 margin-left: 80px;
 margin-top: 40px;
 }
+
+.icon_img{
+  padding-top:5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
 #latestmovies{
-  margin-left:8px;
-  margin-top:-3px;
-    color: #0d2de0;
+  font-weight: 300;
+  font-size: 1.4rem;
+  letter-spacing: 5px;
+  font-family: 'Faster One', cursive;
+  transition: 0.2s ease;
+  margin-left: 10px;
+  margin-top: 3px;
 }
 
 .moviename{
@@ -100,7 +117,7 @@ margin-top: 40px;
   text-align: center;
 }
 .movienames{
-  color:#333;
+  color:#fff;
   text-decoration: none;
 }
 
@@ -132,7 +149,7 @@ figure{
   height: 200px;
   overflow: hidden;
   border-radius: 3px;
-  border: #c71919 5px solid;
+  border: #c71919 3px solid;
 }
 
 
@@ -176,7 +193,11 @@ padding:20px;
 }
 .rightdetails{
   float: right;
+  font-size: 20%;
 
+}
+.words{
+  font-size: 20px;
 }
 .leftdetails{
   float:left;
@@ -190,20 +211,31 @@ padding:20px;
   margin-bottom: 20px;
 }
 .download{
+  transition: 0.5s ease;
   margin-top: 30px;
-  margin-left: 420px;
-  display: inline-grid;
+  text-align: center;
 }
-.magneticlink{
-  margin-left:-25px;
+
+.download a img{
+  margin-top:8px;
+  transition: 0.5s ease;
+}
+
+.download a img:hover{
+  transform: scale(1.3);
 }
 .torrent{
   height: 50px;
   width: 50px;
 }
 
-  footer{
+.quote{
+
     margin-top:40px;
+    font-size: 17px;
+}
+
+  footer{
     padding:10px;
     background: #333;
     color:rgba(255, 255, 255, 0.4);
